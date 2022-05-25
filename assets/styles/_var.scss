@@ -1,0 +1,27 @@
+// 基本配色
+$primary: #33bad2;
+$secondary: #181818;
+
+// 共通
+* {
+  color: $secondary;
+}
+
+// フォントサイズ
+$font-size-xl: 1.5rem;
+$font-size-lg: 1.25rem;
+$font-size-sm: 0.75rem;
+
+// フォントの太さ
+$font-weight-bold: 700;
+
+// ボーダー
+$border-color: #ced4da;
+
+// コンポーネント
+$header-height: 60px;
+
+// utility Class
+.vertical-middle {
+  vertical-align: middle !important;
+}
