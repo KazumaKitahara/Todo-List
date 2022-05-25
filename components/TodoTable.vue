@@ -87,7 +87,7 @@ export default Vue.extend({
     emitEvent(eventName: 'click-state' | 'click-delete', emitValue: any) {
       this.$emit(eventName, emitValue)
     },
-    idForDisplay(uuid: string) {
+    idForDisplay(uuid: string): number {
       return this.originTodos.findIndex(todo => todo.uuid === uuid) + 1
     },
   }
